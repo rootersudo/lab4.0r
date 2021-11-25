@@ -81,7 +81,7 @@ int main()
 		{
 		
 			
-			last *= -x * x /(2 * n + 1)*(2*n-1) ; 	;
+			last *= -x * x /(2 * n + 1)*(2*n-1) ; 	
 			sum += last;
 		}
 		return sum;
