@@ -62,10 +62,9 @@ int main()
 		double sum = last;
 		for (int i = 1; i < n; ++i)
 		{
-			double r; // Отношение i-го слагаемлого к (i - 1)-му
-		   // Вычисление значения r
-			r = -x * x /(2 * i + 1)*(2*i-1) ;
-			last *= r; 	
+			
+			
+			last *= -x * x /(2 * i + 1)*(2*i-1) ; 	
 			sum += last;
 			
 		}
@@ -80,10 +79,9 @@ int main()
 		double sum = last;
 		for (n = 1; fabs(last) > E; ++n)
 		{
-			double r; // Отношение n-го слагаемлого к (n - 1)-му
-		  // Вычисление значения r
-			r = -x * x / (2 * n + 1) * (2 * n - 1);
-			last *= r;
+		
+			
+			last *= -x * x /(2 * n + 1)*(2*n-1) ; 	;
 			sum += last;
 		}
 		return sum;
