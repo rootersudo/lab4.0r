@@ -62,7 +62,7 @@ int main()
 		double sum = last;
 		for (int i = 1; i < n; ++i)
 		{
-			double r; // Отношение i-го слагаемлого к (i - 1)-му
+			double r; //Отношение i-го слагаемлого к (i - 1)-му
 		   // Вычисление значения r
 			r = -x * x / (2 * i + 1);
 			last *= r;
